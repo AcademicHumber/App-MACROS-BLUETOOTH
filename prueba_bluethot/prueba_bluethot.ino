@@ -1,3 +1,4 @@
+//Solo para arduino Micro, ProMicro y Leonardo
 #include <Keyboard.h>
 #include <SoftwareSerial.h>   // Incluimos la librería  SoftwareSerial
 
@@ -8,7 +9,7 @@ void setup()
   BT.begin(9600);       // Inicializamos el puerto serie BT (Para Modo AT 2)
   Serial.begin(9600);   // Inicializamos  el puerto serie  
 }
- 
+
 void loop()
 {
   if(BT.available())    // Si llega un dato por el puerto BT se envía al monitor serial

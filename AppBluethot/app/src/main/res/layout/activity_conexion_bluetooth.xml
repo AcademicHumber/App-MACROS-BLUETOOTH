@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:layout_margin="5dp"
+    tools:context=".conexion_bluetooth">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="Acciones rápidas"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btn1"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:layout_width="186dp"
+        android:layout_height="54dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="#000000"
+        android:backgroundTintMode="src_over"
+        android:fontFamily="casual"
+        android:onClick="accion1"
+        android:text="Saludo"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btn2"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:layout_width="186dp"
+        android:layout_height="54dp"
+        android:layout_below="@id/btn1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#000000"
+        android:backgroundTintMode="src_over"
+        android:fontFamily="casual"
+        android:onClick="accion2"
+        android:text="Gmail"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btn3"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:layout_width="186dp"
+        android:layout_height="54dp"
+        android:layout_below="@id/btn2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#000000"
+        android:backgroundTintMode="src_over"
+        android:fontFamily="casual"
+        android:onClick="accion3"
+        android:text="Hotmail"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btn4"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:layout_width="186dp"
+        android:layout_height="54dp"
+        android:layout_below="@id/btn3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#000000"
+        android:backgroundTintMode="src_over"
+        android:fontFamily="casual"
+        android:onClick="accion4"
+        android:text="Udabol"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btn5"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:layout_width="186dp"
+        android:layout_height="54dp"
+        android:layout_below="@id/btn4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#000000"
+        android:backgroundTintMode="src_over"
+        android:fontFamily="casual"
+        android:onClick="accion5"
+        android:text="Caracteres"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btn6"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:layout_width="186dp"
+        android:layout_height="54dp"
+        android:layout_below="@id/btn5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#000000"
+        android:backgroundTintMode="src_over"
+        android:fontFamily="casual"
+        android:onClick="accion6"
+        android:text="Nota"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btn7"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:layout_width="186dp"
+        android:layout_height="54dp"
+        android:layout_below="@id/btn6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#000000"
+        android:backgroundTintMode="src_over"
+        android:fontFamily="casual"
+        android:onClick="accion7"
+        android:text="Calculadora"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btn8"
+        style="@android:style/Widget.Material.Light.Button.Inset"
+        android:layout_width="186dp"
+        android:layout_height="54dp"
+        android:layout_below="@id/btn7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#000000"
+        android:backgroundTintMode="src_over"
+        android:fontFamily="casual"
+        android:onClick="accion8"
+        android:text="M.V.W."
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+
+
+</RelativeLayout>

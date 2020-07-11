@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Macros Bluethoot</string>
+    <string name="title_search">Selecciona \"MACROS\"</string>
+    <string name="descripcion_app">La aplicación MACROS BLUETOOTH esta echa para ahorrarte la mayor cantidad de tiempo en tareas que a veces resultan repetitivas y se pueden automatizar, la app se conecta a un módulo bluetooth y con solo apretar un boón puedes escribir parrafos enteros o realizar acciones predeterminadas.</string>
+    <string name="descripcion_aacciones">Las acciones actualmente se encuentran configuradas de manera predeterminada, sin embargo en un futuro estas podrán ser configurables, entre las acciones que actualmente realiza la app esta el realizar un saludo formal para una candidatura a un trabajo, el rellenar correos de manera automática, el abrir Google chrome con un solo boton, entre otras.</string>
+</resources>
